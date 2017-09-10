@@ -43,6 +43,7 @@ namespace BusinessLogicLayer.BookLogic
 
         public async Task AddBook(Books book)
         {
+            book.Edition.EntryDate = DateTime.Now;
             await _book.Add(book);
         }
 

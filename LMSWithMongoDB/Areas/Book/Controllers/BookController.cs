@@ -1,4 +1,5 @@
 ﻿using BusinessLogicLayer.BookLogic;
+using MongoDB.Driver;
 using RepositoryPattern;
 using System;
 using System.Collections.Generic;
@@ -24,9 +25,12 @@ namespace LMSWithMongoDB.Areas.Book.Controllers
                 await _book.AddBook(book);
                 return Ok("Successfully added Book");
             }
-            catch
+            catch(MongoWriteException e)
             {
-                return BadRequest("Book id can not be duplicated");
+                return BadRequest("Bookid can not be duplicated. Please check BookId");
+            }catch(Exception e)
+            {
+                return BadRequest("Internal Server Problem");
             }
         }
         
