@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMSWithMongoDB", "LMSWithMongoDB\LMSWithMongoDB.csproj", "{C49333DF-A2AC-4A2B-A639-CBD2ED27B389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{29E6F892-9B33-47AD-89CB-2E28D1AEF188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPattern", "RepositoryPattern\RepositoryPattern.csproj", "{8FD12B25-4797-444C-8415-FF1E3AD98373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C49333DF-A2AC-4A2B-A639-CBD2ED27B389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49333DF-A2AC-4A2B-A639-CBD2ED27B389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49333DF-A2AC-4A2B-A639-CBD2ED27B389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49333DF-A2AC-4A2B-A639-CBD2ED27B389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E6F892-9B33-47AD-89CB-2E28D1AEF188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E6F892-9B33-47AD-89CB-2E28D1AEF188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E6F892-9B33-47AD-89CB-2E28D1AEF188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E6F892-9B33-47AD-89CB-2E28D1AEF188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD12B25-4797-444C-8415-FF1E3AD98373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD12B25-4797-444C-8415-FF1E3AD98373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD12B25-4797-444C-8415-FF1E3AD98373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD12B25-4797-444C-8415-FF1E3AD98373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
